@@ -1,0 +1,299 @@
+body{
+    display:block;
+}
+div{
+    display: block;
+}
+body,ul{
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px;
+    margin: 0px;
+}
+.header{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    position: fixed;
+    box-shadow: 0px 1px 4px;
+    z-index: 999;
+}
+ul{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+li{
+   text-align: -webkit-match-parent;
+   text-decoration: none;
+}
+
+.header ul{
+    list-style: none;
+    margin: 0px;
+}
+
+.header ul li{
+    display: inline;
+    height: 70px;
+    line-height: 70px;
+    margin: 10px 20px;;
+}
+
+.brand-name{
+    float: left;
+    font-size: 24px;
+    font-family: cursive;
+    font-weight: 999;
+    height: 70px;
+    color: black;
+    line-height: 70px;
+}
+
+.nav{
+    display: block;
+    float: right;
+}
+.Container{
+    width: 100%;
+    max-width: 1180px;
+    margin: 0px auto;
+}
+a:-webkit-any-link{
+    cursor: pointer;
+  color:-webkit-link;
+  text-decoration: underline;
+}
+.me{
+    width:500px;
+    height: 500px;
+    float: right;
+    margin-top: 100px;
+}
+
+.main-banner{
+    width: 100%;
+    background-size: cover;
+    height: 500px;
+}
+.main-banner p{
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 900;
+    word-spacing: 15px;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: capitalize;
+}
+p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.intro{
+    float: left;
+    margin: 100px 0;
+}
+.Social{
+    margin-top: 100px;
+    align-content: left;
+}
+.Social img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-right: 30px;
+    border: 3px solid transparent;
+    padding-bottom: 10px;
+}
+.Social img:hover{
+    border-bottom: 3px solid #4070F4;
+    transition: all .3s ease-in;
+}
+.main-about{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.Contact-btn{
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    text-transform: capitalize;
+    font-family: 'Poppins',sans-serif;
+    background-color: #4070F4;
+    color: white;
+    outline: 0;
+    cursor: pointer;
+    border: #4070F4;
+    border-radius: 10px;
+}
+
+.skill-section{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.work-section{
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+}
+.section-title{
+    font-size: 30px;
+    font-family: Poppins;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    word-spacing: 12px;
+    color: #4070F4;
+    border-bottom: 2px solid #4070F4;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.contact-section {
+    text-align: center;
+    
+}
+
+.footer{
+    width: 100%;
+    padding: 1rem 0;
+    background-color: black;
+    height: 150px;
+    margin-top: 3rem;
+    text-align: center;
+    color: white;
+}
+.col-right{
+    width: 50%;
+    float: right;
+}
+
+.col-left{
+    width: 50%;
+    float: left;
+}
+
+.footer-social{
+    display: block;
+}
+
+.about,.skills,.work
+{
+    margin: 50px 0;
+}
+
+.intro-name1{
+    float: left;
+    font-size: 30px
+}
+
+.skills-data{
+    float: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    font-weight: 600;
+    padding: 0.5rem 1rem;
+    margin-bottom: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 25px rgb(14 36 49 / 15%);
+    color: #424f57;
+    width: 100%;
+}
+
+.skills-name{
+    display: flex;
+}
+
+#jsid{
+    font-size: 2rem;
+    margin-right: 1rem;
+    color: #4070F4;
+}
+
+.skills-bar{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    background-color: #4070F4;
+    height: 0.25rem;
+    border-radius: 0.5rem;
+    z-index: -10;
+}
+
+.skills-js{
+    width:10%;
+}
+
+.skills-css{
+    width: 50%;;
+}
+
+.skills-html{
+    width:70%;
+}
+
+
+
+/* .skills-pecentage{
+
+} */
+
+.bd-grid1{
+    margin-top: 4rem;
+    width: calc(100% - 2rem);
+}
+
+.contact-form{
+    margin: 0 auto;
+}
+
+form{
+    display:block;
+    width:365px;
+}
+.headline{
+    margin-bottom: 15px;
+    font-weight: 600;
+    color: #0E2431;
+}
+
+.contact-input{
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    border: 1.5px solid #0E2431;
+    outline: none;
+    margin-bottom: 2rem;
+}
+
+.button{
+    width: 140px;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    text-transform: capitalize;
+    font-family: 'Poppins',sans-serif;
+    background-color: #4070F4;
+    outline: 0;
+    border: 0.1px solid white;
+    cursor: pointer;
+    border-radius: 10px; 
+}
